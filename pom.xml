@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>00-example-module</module>
-        <module>XX-Vikulov</module>
+        <module>32B-Vikulov</module>
     </modules>
 
     <properties>
