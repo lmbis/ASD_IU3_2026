@@ -25,8 +25,8 @@ class PairWithSumTest {
     }
 
     @Test
-    void shouldSkipFirstIndexWhoseComplementIsOnlyToTheLeft() {
-        // для i = 0 дополнение 7 отсутствует; для i = 1 дополнение 5 стоит правее
+    void shouldSkipFirstIndexThatHasNoPair() {
+        // у i = 0 дополнения 7 нет, поэтому ответ начинается с i = 1 (дополнение 5 стоит правее)
         assertArrayEquals(new int[] {1, 3}, PairWithSum.solve(new int[] {1, 3, 9, 5}, 8));
     }
 
